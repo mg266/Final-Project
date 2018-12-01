@@ -1,3 +1,8 @@
 The first file, waow
 
-Most of our code is going to be in app/src etc
+Most of our code is going to be in app/src etc..
+
+To Do List:
+1. Make a question class -> store the values associated with it to select the category of Pokemon you’d get 
+2. Remove legendaries, evolutions, pseudo-legendary 
+3. Joke mode —> no matter what you choose, you’ll get magicarp. 
