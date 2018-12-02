@@ -24,7 +24,7 @@ public class Weight
      *
      * @param other the Weight being copied
      */
-    Weight(Weight other)
+    public Weight(Weight other)
     {
         category = other.getCategory();
         value = other.getValue();

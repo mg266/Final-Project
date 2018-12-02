@@ -37,7 +37,7 @@ public class Answer implements Iterable<Weight>
      * Self-constructor, copies the contents of another Answer object into a new one.
      * @param other the Answer being copied
      */
-    Answer(Answer other)
+    public Answer(Answer other)
     {
         text = other.getText();
         weights = new ArrayList<>();
