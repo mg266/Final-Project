@@ -11,4 +11,13 @@ public class Main
 {
     /** The list of every question in the quiz. */
     private ArrayList<Question> allQuestions;
+    
+    /**
+     * The main method of the app.
+     * @param unused N/A
+     */
+    public static void main(String unused[])
+    {
+        return;
+    }
 }
