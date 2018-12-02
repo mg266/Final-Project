@@ -1,11 +1,14 @@
 package rmm.waow.com.mp6;
 
+import java.util.ArrayList;
+
+import rmm.waow.com.mp6.questions.Question;
+
 /**
- * todo better description
- * This is where we begin.
+ * This is where the fun begins.
  */
 public class Main
 {
-    /** Hmmmmm... */
-    public static boolean projectStarted = true;
+    /** The list of every question in the quiz. */
+    private ArrayList<Question> allQuestions;
 }
