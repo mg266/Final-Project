@@ -16,7 +16,15 @@ public class Question implements Iterable<Answer>
     private ArrayList<Answer> answers;
     
     /**
-     * Default String-based constructor.
+     * Default constructor.
+     */
+    public Question()
+    {
+        text = "EMPTY";
+        answers = new ArrayList<>();
+    }
+    /**
+     * Basic String-based constructor.
      * @param initText the text of the question
      */
     public Question(String initText)
@@ -34,6 +42,7 @@ public class Question implements Iterable<Answer>
         answers = new ArrayList<>();
         for (Answer currentAnswer: other)
         {
+            //add copies a new object, which is why this is a reference
             add(currentAnswer);
         }
     }

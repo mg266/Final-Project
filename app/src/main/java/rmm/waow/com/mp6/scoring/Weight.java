@@ -1,4 +1,4 @@
-package rmm.waow.com.mp6.questions;
+package rmm.waow.com.mp6.scoring;
 
 /**
  * A simple class that stores the tag of the Weight and its offset when applied.

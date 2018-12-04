@@ -1,4 +1,4 @@
-package rmm.waow.com.mp6.questions;
+package rmm.waow.com.mp6.scoring;
 
 public class WeightTest
 {
