@@ -10,7 +10,8 @@ import android.widget.ProgressBar;
 
 public class MainActivity extends AppCompatActivity
 {
-    @Override
+    //@Override
+    final String TAG = "MainActivity";
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity
         beginQuiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.d(TAG, "click");
                 openActivityQuestion();
             }
         });
