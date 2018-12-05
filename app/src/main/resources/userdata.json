@@ -1,1 +1,13 @@
-{}
+{
+  "pokemon":
+  [
+    {
+      "name": "Debug Example",
+      "gender": 0,
+      "weights":
+      [
+        {}
+      ]
+    }
+  ]
+}

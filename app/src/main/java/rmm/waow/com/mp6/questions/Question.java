@@ -34,6 +34,7 @@ public class Question implements Iterable<Answer>
         text = initText;
         answers = new ArrayList<>();
     }
+    //todo Matthew add JSON constructor
     /**
      * Self-constructor, copies the contents of another Question object into a new one.
      * @param other the Question being copied
