@@ -24,21 +24,20 @@ public class MainActivity extends AppCompatActivity
             }
         });
         Button optionsButton = findViewById(R.id.optionsButton);
-        beginQuiz.setOnClickListener(new View.OnClickListener() {
+        optionsButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d(TAG, "options button");
+                Log.d(TAG, "clicked optionsButton");
             }
         });
         Button previousResults = findViewById(R.id.previousResults);
-        beginQuiz.setOnClickListener(new View.OnClickListener() {
+        previousResults.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d(TAG, "previous results");
+                Log.d(TAG, "clicked previousResults");
             }
         });
 
-        
         //todo implement this and make it call the Wrapper class that Matthew is making
 //        super.onCreate(savedInstanceState);
 //

@@ -9,4 +9,5 @@
     <string name="begin_quiz">Begin Quiz</string>
     <string name="options">Options</string>
     <string name="your_result_is">Your Result Is...</string>
+    <string name="view_previous_results">View Previous Results</string>
 </resources>

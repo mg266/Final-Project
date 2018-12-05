@@ -11,7 +11,7 @@ import android.widget.Button;
 public class Questions4Activity extends AppCompatActivity {
 
     final String TAG = "questions4Activity";
-    @Override
+    //@Override
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
