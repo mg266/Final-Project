@@ -1,3 +1,75 @@
 {
-
+  "questions":
+  [
+    {
+      "questionText": "What is your greatest weakness?",
+      "answers":
+      [
+        {
+          "answerText": "Selfishness",
+          "weights":
+          [
+            { "category": "Dark", "value": 4 },
+            { "category": "Fighting", "value": 1 },
+            { "category": "Fairy", "value": -4 },
+            { "category": "Bug", "value": -4 }
+          ]
+        },
+        {
+          "answerText": "Perfectionism",
+          "weights":
+          [
+            { "category": "Dragon", "value": 4 },
+            { "category": "Poison", "value": 3 },
+            { "category": "Ice", "value": 3 },
+            { "category": "Psychic", "value": 2 },
+            { "category": "Normal", "value": -2 }
+          ]
+        },
+        {
+          "answerText": "Impatience",
+          "weights":
+          [
+            { "category": "Fire", "value": 5 },
+            { "category": "Fighting", "value": 3 },
+            { "category": "Flying", "value": 3 },
+            { "category": "Bug", "value": 2 },
+            { "category": "Water", "value": -2 },
+            { "category": "Grass", "value": -3 },
+            { "category": "Psychic", "value": -5 }
+          ]
+        },
+        {
+          "answerText": "Stubbornness",
+          "weights":
+          [
+            { "category": "Steel", "value": 5 },
+            { "category": "Rock", "value": 4 },
+            { "category": "Bug", "value": 2 },
+            { "category": "Flying", "value": -4 }
+          ]
+        },
+        {
+          "answerText": "Laziness",
+          "weights":
+          [
+            { "category": "Grass", "value": 5 },
+            { "category": "Ground", "value": 4 },
+            { "category": "Rock", "value": 2 },
+            { "category": "Normal", "value": 2 },
+            { "category": "Fighting", "value": -2 },
+            { "category": "Fire", "value": -4 },
+            { "category": "Dragon", "value": -5 }
+          ]
+        }
+      ]
+    },
+    {
+      "questionText": "What is your biggest fear?",
+      "answers":
+      [
+        {}
+      ]
+    }
+  ]
 }
