@@ -17,20 +17,22 @@ public class Answer implements Iterable<Weight>
     private String text;
     /** A list of the weighting effects of this choice. */
     private ArrayList<Weight> weights;
+    /** The default text for an uninitialized Answer. */
+    private static final String DEFAULT_ANSWER_TEXT = "EMPTY";
     
     /**
-     * Default constructor.
+     * Default constructor, sets everything to its default value.
      */
     public Answer()
     {
-        text = "EMPTY";
+        text = DEFAULT_ANSWER_TEXT;
         weights = new ArrayList<>();
     }
     /**
      * Simple constructor, takes only the display text of the Answer.
      * @param initText the text of the Answer
      */
-    public Answer(String initText)
+    public Answer(final String initText)
     {
         text = initText;
         weights = new ArrayList<>();
@@ -39,7 +41,7 @@ public class Answer implements Iterable<Weight>
      * Self-constructor, copies the contents of another Answer object into a new one.
      * @param other the Answer being copied
      */
-    public Answer(Answer other)
+    public Answer(final Answer other)
     {
         text = other.getText();
         weights = new ArrayList<>();

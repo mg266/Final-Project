@@ -15,16 +15,16 @@ public class Weight
      * @param initCategory the category of the Weight
      * @param initValue the value of the Weight
      */
-    public Weight(String initCategory, int initValue)
+    public Weight(final String initCategory, final int initValue)
     {
         category = initCategory;
         value = initValue;
     }
     /**
-     *
+     * Self-constructor, copies the contents of another Weight object.
      * @param other the Weight being copied
      */
-    public Weight(Weight other)
+    public Weight(final Weight other)
     {
         category = other.getCategory();
         value = other.getValue();

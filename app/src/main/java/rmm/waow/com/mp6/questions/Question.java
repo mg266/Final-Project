@@ -14,20 +14,22 @@ public class Question implements Iterable<Answer>
     private String text;
     /** The possible answers to this question. */
     private ArrayList<Answer> answers;
+    /** The default text for an uninitialized Question. */
+    private static final String DEFAULT_QUESTION_TEXT = "EMPTY?";
     
     /**
-     * Default constructor.
+     * Default constructor, sets everything to its default value.
      */
     public Question()
     {
-        text = "EMPTY";
+        text = DEFAULT_QUESTION_TEXT;
         answers = new ArrayList<>();
     }
     /**
-     * Basic String-based constructor.
+     * Basic constructor, takes question text as input.
      * @param initText the text of the question
      */
-    public Question(String initText)
+    public Question(final String initText)
     {
         text = initText;
         answers = new ArrayList<>();
@@ -36,7 +38,7 @@ public class Question implements Iterable<Answer>
      * Self-constructor, copies the contents of another Question object into a new one.
      * @param other the Question being copied
      */
-    public Question(Question other)
+    public Question(final Question other)
     {
         text = other.getText();
         answers = new ArrayList<>();
@@ -51,7 +53,7 @@ public class Question implements Iterable<Answer>
      * Adds an Answer object to the local list of Answers.
      * @param toAdd the answer being added
      */
-    public void add(Answer toAdd)
+    public void add(final Answer toAdd)
     {
         answers.add(new Answer(toAdd));
     }
