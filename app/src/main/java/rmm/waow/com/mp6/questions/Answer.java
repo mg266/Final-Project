@@ -5,6 +5,8 @@ import android.support.annotation.NonNull;
 import java.util.ArrayList;
 import java.util.Iterator;
 
+import rmm.waow.com.mp6.scoring.Weight;
+
 /**
  * Instances of this class hold the flavor text of an answer and the weighting values associated
  * with choosing it.
@@ -43,6 +45,7 @@ public class Answer implements Iterable<Weight>
         weights = new ArrayList<>();
         for (Weight currentWeight: other)
         {
+            //add copies a new object, which is why this is a reference
             add(currentWeight);
         }
     }
