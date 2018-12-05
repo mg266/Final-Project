@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ProgressBar;
 
 public class MainActivity extends AppCompatActivity
 {
@@ -20,11 +19,25 @@ public class MainActivity extends AppCompatActivity
         beginQuiz.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d(TAG, "click");
+                Log.d(TAG, "begin quiz");
                 openActivityQuestion();
             }
         });
-        
+        Button optionsButton = findViewById(R.id.optionsButton);
+        optionsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d(TAG, "clicked optionsButton");
+            }
+        });
+        Button previousResults = findViewById(R.id.previousResults);
+        previousResults.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d(TAG, "clicked previousResults");
+            }
+        });
+
         //todo implement this and make it call the Wrapper class that Matthew is making
 //        super.onCreate(savedInstanceState);
 //
@@ -49,7 +62,7 @@ public class MainActivity extends AppCompatActivity
 //        progressBar.setVisibility(View.INVISIBLE);
     }
     public void openActivityQuestion() {
-        Intent openQuestion = new Intent(this, QuestionsActivity.class);
+        Intent openQuestion = new Intent(this, Questions4Activity.class);
         startActivity(openQuestion);
     }
 }
