@@ -5,4 +5,8 @@
     <string name="answer_text_b">Answer Text B</string>
     <string name="answer_text_c">Answer Text C</string>
     <string name="answer_text_d">Answer Text D</string>
+    <string name="answer_text_e">Answer Text E</string>
+    <string name="begin_quiz">Begin Quiz</string>
+    <string name="options">Options</string>
+    <string name="your_result_is">Your Result Is...</string>
 </resources>

@@ -10,7 +10,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".QuestionsActivity"></activity>
+        <activity android:name=".Questions4Activity" />
+        <activity android:name=".Questions2Activity" />
+        <activity android:name=".Questions3Activity" />
+        <activity android:name=".Questions5Activity" />
+        <activity android:name=".optionsActivity" />
+        <activity android:name=".ResultActivity"></activity>
     </application>
 
 </manifest>
