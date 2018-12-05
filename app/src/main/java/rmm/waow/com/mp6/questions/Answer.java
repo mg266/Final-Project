@@ -2,8 +2,11 @@ package rmm.waow.com.mp6.questions;
 
 import android.support.annotation.NonNull;
 
+import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import javax.*;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -52,11 +55,11 @@ public class Answer implements Iterable<Weight>
     {
         text = jsonObject.getString(TEXT);
         weights = new ArrayList<>();
-        //todo Matthew fix this for loop
-//        for (JSONObject currentWeight: (jsonObject.getJSONArray(WEIGHTS)))
-//        {
-//            add(new Weight(currentWeight));
-//        }
+        JSONArray tempWeights = jsonObject.getJSONArray(WEIGHTS);
+        for (int i = 0; i < tempWeights.length(); i++)
+        {
+            add(new Weight(tempWeights.getJSONObject(i)));
+        }
     }
     /**
      * Self-constructor, copies the contents of another Answer object into a new one.

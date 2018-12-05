@@ -27,7 +27,8 @@ public class Tally
      */
     public Tally()
     {
-        /** todo Miranda
+        /**
+         * todo Miranda
          * when initializing categoryMap check if it's null before creating it, and if it already
          * exists don't create it at all since it's static.
          */

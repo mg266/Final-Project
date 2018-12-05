@@ -2,6 +2,10 @@ package rmm.waow.com.mp6.questions;
 
 import android.support.annotation.NonNull;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -10,8 +14,12 @@ import java.util.Iterator;
  */
 public class Question implements Iterable<Answer>
 {
+    /** The String name of the question text in a JSON object describing a Question object. */
+    private static final String TEXT = "questionText";
     /** The text of the question itself. */
     private String text;
+    /** The String name of the possible answers in a JSON object describing an Answers object. */
+    private static final String ANSWERS = "answers";
     /** The possible answers to this question. */
     private ArrayList<Answer> answers;
     /** The default text for an uninitialized Question. */
@@ -34,7 +42,20 @@ public class Question implements Iterable<Answer>
         text = initText;
         answers = new ArrayList<>();
     }
-    //todo Matthew add JSON constructor
+    /**
+     * JSON constructor, creates a Question from a JSON file.
+     * @param jsonObject the JSON template for the Question.
+     */
+    public Question(final JSONObject jsonObject) throws JSONException
+    {
+        text = jsonObject.getString(TEXT);
+        answers = new ArrayList<>();
+        JSONArray tempAnswers = jsonObject.getJSONArray(ANSWERS);
+        for (int i = 0; i < tempAnswers.length(); i++)
+        {
+            add(new Answer(tempAnswers.getJSONObject(i)));
+        }
+    }
     /**
      * Self-constructor, copies the contents of another Question object into a new one.
      * @param other the Question being copied
