@@ -98,6 +98,14 @@ public class Question implements Iterable<Answer>
         return text;
     }
     /**
+     * Gets the number of possible answers to this question.
+     * @return the number of possible answers to this question.
+     */
+    public int getAnswerCount()
+    {
+        return answers.size();
+    }
+    /**
      * The iterator for Question, iterates through all the Answers to the Question.
      * @return an Iterator for this class
      */
