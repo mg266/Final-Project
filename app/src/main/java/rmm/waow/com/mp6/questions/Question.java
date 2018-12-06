@@ -1,6 +1,7 @@
 package rmm.waow.com.mp6.questions;
 
 import android.support.annotation.NonNull;
+import android.util.Log;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -14,6 +15,8 @@ import java.util.Iterator;
  */
 public class Question implements Iterable<Answer>
 {
+    /** The logging tag for this class. */
+    private static final String TAG = "Waow:questions.Question";
     /** The String name of the question text in a JSON object describing a Question object. */
     private static final String TEXT = "questionText";
     /** The text of the question itself. */
@@ -51,9 +54,16 @@ public class Question implements Iterable<Answer>
         text = jsonObject.getString(TEXT);
         answers = new ArrayList<>();
         JSONArray tempAnswers = jsonObject.getJSONArray(ANSWERS);
-        for (int i = 0; i < tempAnswers.length(); i++)
+        try
         {
-            add(new Answer(tempAnswers.getJSONObject(i)));
+            for (int i = 0; i < tempAnswers.length(); i++)
+            {
+                add(new Answer(tempAnswers.getJSONObject(i)));
+            }
+        }
+        catch (JSONException e)
+        {
+            Log.d(TAG, "JSON Read error. Name: < " + text + " >", e);
         }
     }
     /**

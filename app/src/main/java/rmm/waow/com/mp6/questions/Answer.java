@@ -1,6 +1,7 @@
 package rmm.waow.com.mp6.questions;
 
 import android.support.annotation.NonNull;
+import android.util.Log;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -19,6 +20,8 @@ import rmm.waow.com.mp6.scoring.Weight;
  */
 public class Answer implements Iterable<Weight>
 {
+    /** The logging tag for this class. */
+    private static final String TAG = "Waow:question.Answer";
     /** The String name of the answer text in a JSON object describing an Answer object. */
     private static final String TEXT = "answerText";
     /** The text of the answer itself. */
@@ -56,9 +59,16 @@ public class Answer implements Iterable<Weight>
         text = jsonObject.getString(TEXT);
         weights = new ArrayList<>();
         JSONArray tempWeights = jsonObject.getJSONArray(WEIGHTS);
-        for (int i = 0; i < tempWeights.length(); i++)
+        try
         {
-            add(new Weight(tempWeights.getJSONObject(i)));
+            for (int i = 0; i < tempWeights.length(); i++)
+            {
+                add(new Weight(tempWeights.getJSONObject(i)));
+            }
+        }
+        catch (JSONException e)
+        {
+            Log.d(TAG, "JSON Read error. Name: < " + text + " >", e);
         }
     }
     /**

@@ -8,6 +8,8 @@ import java.util.Map;
  */
 public class Tally
 {
+    /** The logging tag for this class. */
+    private static final String TAG = "Waow:scoring.Tally";
     /** The name of the quiz-taker, identifies the quiz session. */
     private String name;
     /**
