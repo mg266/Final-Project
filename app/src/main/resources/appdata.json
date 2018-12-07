@@ -1,75 +1,1888 @@
 {
-  "questions":
-  [
+  "questions": [
     {
       "questionText": "What is your greatest weakness?",
-      "answers":
-      [
+      "answers": [
         {
           "answerText": "Selfishness",
-          "weights":
-          [
-            { "category": "Dark", "value": 4 },
-            { "category": "Fighting", "value": 1 },
-            { "category": "Fairy", "value": -4 },
-            { "category": "Bug", "value": -4 }
+          "weights": [
+            {
+              "category": "Dark",
+              "value": 4
+            },
+            {
+              "category": "Fighting",
+              "value": 1
+            },
+            {
+              "category": "Fairy",
+              "value": -4
+            },
+            {
+              "category": "Bug",
+              "value": -4
+            }
           ]
         },
         {
           "answerText": "Perfectionism",
-          "weights":
-          [
-            { "category": "Dragon", "value": 4 },
-            { "category": "Poison", "value": 3 },
-            { "category": "Ice", "value": 3 },
-            { "category": "Psychic", "value": 2 },
-            { "category": "Normal", "value": -2 }
+          "weights": [
+            {
+              "category": "Dragon",
+              "value": 4
+            },
+            {
+              "category": "Poison",
+              "value": 3
+            },
+            {
+              "category": "Ice",
+              "value": 3
+            },
+            {
+              "category": "Psychic",
+              "value": 2
+            },
+            {
+              "category": "Normal",
+              "value": -2
+            }
           ]
         },
         {
           "answerText": "Impatience",
-          "weights":
-          [
-            { "category": "Fire", "value": 5 },
-            { "category": "Fighting", "value": 3 },
-            { "category": "Flying", "value": 3 },
-            { "category": "Bug", "value": 2 },
-            { "category": "Water", "value": -2 },
-            { "category": "Grass", "value": -3 },
-            { "category": "Psychic", "value": -5 }
+          "weights": [
+            {
+              "category": "Fire",
+              "value": 5
+            },
+            {
+              "category": "Fighting",
+              "value": 3
+            },
+            {
+              "category": "Flying",
+              "value": 3
+            },
+            {
+              "category": "Bug",
+              "value": 2
+            },
+            {
+              "category": "Water",
+              "value": -2
+            },
+            {
+              "category": "Grass",
+              "value": -3
+            },
+            {
+              "category": "Psychic",
+              "value": -5
+            }
           ]
         },
         {
           "answerText": "Stubbornness",
-          "weights":
-          [
-            { "category": "Steel", "value": 5 },
-            { "category": "Rock", "value": 4 },
-            { "category": "Bug", "value": 2 },
-            { "category": "Flying", "value": -4 }
+          "weights": [
+            {
+              "category": "Steel",
+              "value": 5
+            },
+            {
+              "category": "Rock",
+              "value": 4
+            },
+            {
+              "category": "Bug",
+              "value": 2
+            },
+            {
+              "category": "Flying",
+              "value": -4
+            }
           ]
         },
         {
           "answerText": "Laziness",
-          "weights":
-          [
-            { "category": "Grass", "value": 5 },
-            { "category": "Ground", "value": 4 },
-            { "category": "Rock", "value": 2 },
-            { "category": "Normal", "value": 2 },
-            { "category": "Fighting", "value": -2 },
-            { "category": "Fire", "value": -4 },
-            { "category": "Dragon", "value": -5 }
+          "weights": [
+            {
+              "category": "Grass",
+              "value": 5
+            },
+            {
+              "category": "Ground",
+              "value": 4
+            },
+            {
+              "category": "Rock",
+              "value": 2
+            },
+            {
+              "category": "Normal",
+              "value": 2
+            },
+            {
+              "category": "Fighting",
+              "value": -2
+            },
+            {
+              "category": "Fire",
+              "value": -4
+            },
+            {
+              "category": "Dragon",
+              "value": -5
+            }
           ]
         }
       ]
     },
     {
       "questionText": "What is your biggest fear?",
-      "answers":
-      [
+      "answers": [
         {
-
+          "answerText": "Heights",
+          "weights": [
+            {
+              "category": "Ground",
+              "value": 5
+            },
+            {
+              "category": "Grass",
+              "value": 4
+            },
+            {
+              "category": "Rock",
+              "value": 3
+            },
+            {
+              "category": "Flying",
+              "value": -5
+            }
+          ]
+        },
+        {
+          "answerText": "The Dark",
+          "weights": [
+            {
+              "category": "Fire",
+              "value": 4
+            },
+            {
+              "category": "Fairy",
+              "value": 3
+            },
+            {
+              "category": "Ghost",
+              "value": -4
+            },
+            {
+              "category": "Dark",
+              "value": -5
+            }
+          ]
+        },
+        {
+          "answerText": "Bugs",
+          "weights": [
+            {
+              "category": "Flying",
+              "value": 4
+            },
+            {
+              "category": "Fire",
+              "value": 2
+            },
+            {
+              "category": "Grass",
+              "value": -1
+            },
+            {
+              "category": "Dark",
+              "value": -1
+            },
+            {
+              "category": "Dragon",
+              "value": -4
+            },
+            {
+              "category": "Bug",
+              "value": -5
+            }
+          ]
+        },
+        {
+          "answerText": "Failure",
+          "weights": [
+            {
+              "category": "Fighting",
+              "value": 4
+            },
+            {
+              "category": "Dragon",
+              "value": 1
+            },
+            {
+              "category": "Dark",
+              "value": -2
+            },
+            {
+              "category": "Steel",
+              "value": -3
+            }
+          ]
+        },
+        {
+          "answerText": "Loss",
+          "weights": [
+            {
+              "category": "Ghost",
+              "value": 5
+            },
+            {
+              "category": "Water",
+              "value": 4
+            },
+            {
+              "category": "Poison",
+              "value": 4
+            },
+            {
+              "category": "Ice",
+              "value": 2
+            },
+            {
+              "category": "Dark",
+              "value": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionText": "Favorite Location?",
+      "answers": [
+        {
+          "answerText": "Beach",
+          "weights": [
+            {
+              "category": "Water",
+              "value": 5
+            },
+            {
+              "category": "Ground",
+              "value": 3
+            },
+            {
+              "category": "Normal",
+              "value": 4
+            },
+            {
+              "category": "Rock",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "answerText": "Forest",
+          "weights": [
+            {
+              "category": "Grass",
+              "value": 4
+            },
+            {
+              "category": "Bug",
+              "value": 5
+            },
+            {
+              "category": "Fire",
+              "value": 5
+            },
+            {
+              "category": "Fairy",
+              "value": 2
+            },
+            {
+              "category": "Dark",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "answerText": "City",
+          "weights": [
+            {
+              "category": "Fighting",
+              "value": 4
+            },
+            {
+              "category": "Normal",
+              "value": 2
+            },
+            {
+              "category": "Ground",
+              "value": 4
+            },
+            {
+              "category": "Steel",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "answerText": "Jungle",
+          "weights": [
+            {
+              "category": "Dragon",
+              "value": 4
+            },
+            {
+              "category": "Poison",
+              "value": 5
+            },
+            {
+              "category": "Flying",
+              "value": 2
+            },
+            {
+              "category": "Fairy",
+              "value": 2
+            },
+            {
+              "category": "Grass",
+              "value": 2
+            },
+            {
+              "category": "Normal",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "answerText": "Mountains",
+          "weights": [
+            {
+              "category": "Rock",
+              "value": 5
+            },
+            {
+              "category": "Flying",
+              "value": 3
+            },
+            {
+              "category": "Steel",
+              "value": 4
+            },
+            {
+              "category": "Water",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionText": "Favorite Subject?",
+      "answers": [
+        {
+          "answerText": "Biology",
+          "weights": [
+            {
+              "category": "Water",
+              "value": 3
+            },
+            {
+              "category": "Fairy",
+              "value": 2
+            },
+            {
+              "category": "Grass",
+              "value": 4
+            },
+            {
+              "category": "Fire",
+              "value": 2
+            },
+            {
+              "category": "Ground",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "answerText": "Math",
+          "weights": [
+            {
+              "category": "Psychic",
+              "value": 4
+            },
+            {
+              "category": "Ice",
+              "value": 2
+            },
+            {
+              "category": "Rock",
+              "value": 1
+            },
+            {
+              "category": "Normal",
+              "value": 3
+            },
+            {
+              "category": "Ghost",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "answerText": "Art",
+          "weights": [
+            {
+              "category": "Fire",
+              "value": 3
+            },
+            {
+              "category": "Fairy",
+              "value": 4
+            },
+            {
+              "category": "Flying",
+              "value": 3
+            },
+            {
+              "category": "Grass",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "answerText": "Reading",
+          "weights": [
+            {
+              "category": "Water",
+              "value": 3
+            },
+            {
+              "category": "Dark",
+              "value": 4
+            },
+            {
+              "category": "Bug",
+              "value": 2
+            },
+            {
+              "category": "Ice",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionText": "Preferred Living Space?",
+      "answers": [
+        {
+          "answerText": "Apartment",
+          "weights": [
+            {
+              "category": "Dragon",
+              "value": 4
+            },
+            {
+              "category": "Bug",
+              "value": 3
+            },
+            {
+              "category": "Steel",
+              "value": 4
+            },
+            {
+              "category": "Normal",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "answerText": "Cabin",
+          "weights": [
+            {
+              "category": "Grass",
+              "value": 4
+            },
+            {
+              "category": "Bug",
+              "value": 5
+            },
+            {
+              "category": "Fire",
+              "value": 3
+            },
+            {
+              "category": "Fairy",
+              "value": 2
+            },
+            {
+              "category": "Dark",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "answerText": "Beach House",
+          "weights": [
+            {
+              "category": "Water",
+              "value": 5
+            },
+            {
+              "category": "Normal",
+              "value": 3
+            },
+            {
+              "category": "Ground",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "answerText": "Underground Bunker",
+          "weights": [
+            {
+              "category": "Rock",
+              "value": 4
+            },
+            {
+              "category": "Fighting",
+              "value": 3
+            },
+            {
+              "category": "Ghost",
+              "value": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionText": "Favorite kind of food?",
+      "answers": [
+        {
+          "answerText": "Meat",
+          "weights": [
+            {
+              "category": "Fire",
+              "value": 5
+            },
+            {
+              "category": "Electric",
+              "value": 3
+            },
+            {
+              "category": "Fighting",
+              "value": 3
+            },
+            {
+              "category": "Flying",
+              "value": 3
+            },
+            {
+              "category": "Dragon",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "answerText": "Seafood",
+          "weights": [
+            {
+              "category": "Fire",
+              "value": 2
+            },
+            {
+              "category": "Electric",
+              "value": 3
+            },
+            {
+              "category": "Dragon",
+              "value": 3
+            },
+            {
+              "category": "Flying",
+              "value": 5
+            },
+            {
+              "category": "Poison",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "answerText": "Sweets",
+          "weights": [
+            {
+              "category": "Steel",
+              "value": 3
+            },
+            {
+              "category": "Grass",
+              "value": 2
+            },
+            {
+              "category": "Rock",
+              "value": 3
+            },
+            {
+              "category": "Fairy",
+              "value": 2
+            },
+            {
+              "category": "Ice",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionText": "Dream Job?",
+      "answers": [
+        {
+          "answerText": "Actor",
+          "weights": [
+            {
+              "category": "Fire",
+              "value": 4
+            },
+            {
+              "category": "Water",
+              "value": 2
+            },
+            {
+              "category": "Ghost",
+              "value": 4
+            },
+            {
+              "category": "Psychic",
+              "value": 3
+            },
+            {
+              "category": "Ice",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "answerText": "Detective",
+          "weights": [
+            {
+              "category": "Psychic",
+              "value": 4
+            },
+            {
+              "category": "Fairy",
+              "value": 4
+            },
+            {
+              "category": "Dark",
+              "value": 3
+            },
+            {
+              "category": "Poison",
+              "value": 2
+            },
+            {
+              "category": "Normal",
+              "value": 2
+            },
+            {
+              "category": "Fighting",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "answerText": "Astronaut",
+          "weights": [
+            {
+              "category": "Flying",
+              "value": 5
+            },
+            {
+              "category": "Ice",
+              "value": 3
+            },
+            {
+              "category": "Electric",
+              "value": 2
+            },
+            {
+              "category": "Steel",
+              "value": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionText": "Which time of day do you prefer?",
+      "answers": [
+        {
+          "answerText": "Morning",
+          "weights": [
+            {
+              "category": "Flying",
+              "value": 5
+            },
+            {
+              "category": "Grass",
+              "value": 4
+            },
+            {
+              "category": "Bug",
+              "value": 4
+            },
+            {
+              "category": "Water",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "answerText": "Afternoon",
+          "weights": [
+            {
+              "category": "Fire",
+              "value": 3
+            },
+            {
+              "category": "Electric",
+              "value": 3
+            },
+            {
+              "category": "Normal",
+              "value": 3
+            },
+            {
+              "category": "Ground",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "answerText": "Evening",
+          "weights": [
+            {
+              "category": "Ice",
+              "value": 3
+            },
+            {
+              "category": "Dragon",
+              "value": 2
+            },
+            {
+              "category": "Rock",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "answerText": "Night",
+          "weights": [
+            {
+              "category": "Psychic",
+              "value": 5
+            },
+            {
+              "category": "Dark",
+              "value": 5
+            },
+            {
+              "category": "Ghost",
+              "value": 5
+            },
+            {
+              "category": "Fairy",
+              "value": 3
+            },
+            {
+              "category": "Steel",
+              "value": 3
+            },
+            {
+              "category": "Posion",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionText": "Favorite kind of weather?",
+      "answers": [
+        {
+          "answerText": "Sunny",
+          "weights": [
+            {
+              "category": "Grass",
+              "value": 5
+            },
+            {
+              "category": "Fairy",
+              "value": 2
+            },
+            {
+              "category": "Rock",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "answerText": "Raining",
+          "weights": [
+            {
+              "category": "Water",
+              "value": 5
+            },
+            {
+              "category": "Fairy",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "answerText": "Snowing",
+          "weights": [
+            {
+              "category": "Ice",
+              "value": 5
+            },
+            {
+              "category": "Dragon",
+              "value": 2
+            },
+            {
+              "category": "Fire",
+              "value": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionText": "Which team are you?",
+      "answers": [
+        {
+          "answerText": "Valor",
+          "weights": [
+            {
+              "category": "Fire",
+              "value": 5
+            },
+            {
+              "category": "Electric",
+              "value": 4
+            },
+            {
+              "category": "Dragon",
+              "value": 5
+            },
+            {
+              "category": "Fighting",
+              "value": 2
+            },
+            {
+              "category": "Normal",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "answerText": "Mystic",
+          "weights": [
+            {
+              "category": "Water",
+              "value": 5
+            },
+            {
+              "category": "Ice",
+              "value": 4
+            },
+            {
+              "category": "Bug",
+              "value": 3
+            },
+            {
+              "category": "Psychic",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "answerText": "Instinct",
+          "weights": [
+            {
+              "category": "Ground",
+              "value": 5
+            },
+            {
+              "category": "Flying",
+              "value": 3
+            },
+            {
+              "category": "Fairy",
+              "value": 4
+            },
+            {
+              "category": "Rock",
+              "value": 2
+            },
+            {
+              "category": "Fire",
+              "value": -3
+            },
+            {
+              "category": "Fighting",
+              "value": -3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionText": "Favorite animal?",
+      "answers": [
+        {
+          "answerText": "Turtle",
+          "weights": [
+            {
+              "category": "Water",
+              "value": 5
+            },
+            {
+              "category": "Ice",
+              "value": 2
+            },
+            {
+              "category": "Ground",
+              "value": 3
+            },
+            {
+              "category": "Normal",
+              "value": 1
+            },
+            {
+              "category": "Fire",
+              "value": -3
+            }
+          ]
+        },
+        {
+          "answerText": "Cat",
+          "weights": [
+            {
+              "category": "Fire",
+              "value": 3
+            },
+            {
+              "category": "Normal",
+              "value": 2
+            },
+            {
+              "category": "Dark",
+              "value": 3
+            },
+            {
+              "category": "Water",
+              "value": -3
+            }
+          ]
+        },
+        {
+          "answerText": "Dog",
+          "weights": [
+            {
+              "category": "Dark",
+              "value": 4
+            },
+            {
+              "category": "Fire",
+              "value": 2
+            },
+            {
+              "category": "Fighting",
+              "value": 3
+            },
+            {
+              "category": "Grass",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "answerText": "Lizard",
+          "weights": [
+            {
+              "category": "Ground",
+              "value": 4
+            },
+            {
+              "category": "Bug",
+              "value": 4
+            },
+            {
+              "category": "Ground",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionText": "How do you spend your free time?",
+      "answers": [
+        {
+          "answerText": "With friends",
+          "weights": [
+            {
+              "category": "Normal",
+              "value": 5
+            },
+            {
+              "category": "Dragon",
+              "value": 3
+            },
+            {
+              "category": "Ground",
+              "value": 2
+            },
+            {
+              "category": "Ghost",
+              "value": -2
+            }
+          ]
+        },
+        {
+          "answerText": "Studying",
+          "weights": [
+            {
+              "category": "Rock",
+              "value": 2
+            },
+            {
+              "category": "Psychic",
+              "value": 4
+            },
+            {
+              "category": "Steel",
+              "value": 2
+            },
+            {
+              "category": "Ghost",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "answerText": "Playing games",
+          "weights": [
+            {
+              "category": "Ghost",
+              "value": 3
+            },
+            {
+              "category": "Fighting",
+              "value": 4
+            },
+            {
+              "category": "Electric",
+              "value": 2
+            },
+            {
+              "category": "Fire",
+              "value": -2
+            }
+          ]
+        },
+        {
+          "answerText": "Working out",
+          "weights": [
+            {
+              "category": "Fighting",
+              "value": 5
+            },
+            {
+              "category": "Flying",
+              "value": 4
+            },
+            {
+              "category": "Fire",
+              "value": 3
+            },
+            {
+              "category": "Rock",
+              "value": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionText": "What is your favorite color?",
+      "answers": [
+        {
+          "answerText": "Red",
+          "weights": [
+            {
+              "category": "Fire",
+              "value": 4
+            },
+            {
+              "category": "Flying",
+              "value": 2
+            },
+            {
+              "category": "Normal",
+              "value": 3
+            },
+            {
+              "category": "Grass",
+              "value": -2
+            }
+          ]
+        },
+        {
+          "answerText": "Yellow",
+          "weights": [
+            {
+              "category": "Ground",
+              "value": 2
+            },
+            {
+              "category": "Electric",
+              "value": 4
+            },
+            {
+              "category": "Fighting",
+              "value": 1
+            },
+            {
+              "category": "Fire",
+              "value": -3
+            }
+          ]
+        },
+        {
+          "answerText": "Blue",
+          "weights": [
+            {
+              "category": "Water",
+              "value": 5
+            },
+            {
+              "category": "Ice",
+              "value": 5
+            },
+            {
+              "category": "Dragon",
+              "value": 2
+            },
+            {
+              "category": "Ghost",
+              "value": 1
+            },
+            {
+              "category": "Fire",
+              "value": -3
+            }
+          ]
+        },
+        {
+          "answerText": "Green",
+          "weights": [
+            {
+              "category": "Grass",
+              "value": 5
+            },
+            {
+              "category": "Bug",
+              "value": 3
+            },
+            {
+              "category": "Fairy",
+              "value": 2
+            },
+            {
+              "category": "Fire",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionText": "Which word best describes you?",
+      "answers": [
+        {
+          "answerText": "Funny",
+          "weights": [
+            {
+              "category": "Electric",
+              "value": 2
+            },
+            {
+              "category": "Fairy",
+              "value": 2
+            },
+            {
+              "category": "Flying",
+              "value": 3
+            },
+            {
+              "category": "Ghost",
+              "value": -2
+            }
+          ]
+        },
+        {
+          "answerText": "Brave",
+          "weights": [
+            {
+              "category": "Fire",
+              "value": 4
+            },
+            {
+              "category": "Psychic",
+              "value": 3
+            },
+            {
+              "category": "Ice",
+              "value": 2
+            },
+            {
+              "category": "Grass",
+              "value": -2
+            }
+          ]
+        },
+        {
+          "answerText": "Quiet",
+          "weights": [
+            {
+              "category": "Water",
+              "value": 4
+            },
+            {
+              "category": "Ice",
+              "value": 4
+            },
+            {
+              "category": "Bug",
+              "value": 3
+            },
+            {
+              "category": "Fire",
+              "value": -2
+            }
+          ]
+        },
+        {
+          "answerText": "Determined",
+          "weights": [
+            {
+              "category": "Dark",
+              "value": 4
+            },
+            {
+              "category": "Rock",
+              "value": 3
+            },
+            {
+              "category": "Poison",
+              "value": 2
+            },
+            {
+              "category": "Psychic",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionText": "What is your favorite music genre?",
+      "answers": [
+        {
+          "answerText": "Rock",
+          "weights": [
+            {
+              "category": "Steel",
+              "value": 3
+            },
+            {
+              "category": "Electric",
+              "value": 2
+            },
+            {
+              "category": "Fighting",
+              "value": 2
+            },
+            {
+              "category": "Grass",
+              "value": -2
+            }
+          ]
+        },
+        {
+          "answerText": "EDM",
+          "weights": [
+            {
+              "category": "Electric",
+              "value": 4
+            },
+            {
+              "category": "Flying",
+              "value": 2
+            },
+            {
+              "category": "Steel",
+              "value": 1
+            },
+            {
+              "category": "Dragon",
+              "value": 1
+            },
+            {
+              "category": "Water",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "answerText": "Rap",
+          "weights": [
+            {
+              "category": "Dark",
+              "value": 5
+            },
+            {
+              "category": "Fighting",
+              "value": 4
+            },
+            {
+              "category": "Fire",
+              "value": 3
+            },
+            {
+              "category": "Poison",
+              "value": 3
+            },
+            {
+              "category": "Dragon",
+              "value": 1
+            },
+            {
+              "category": "Water",
+              "value": -1
+            },
+            {
+              "category": "Grass",
+              "value": -2
+            },
+            {
+              "category": "Psychic",
+              "value": -3
+            },
+            {
+              "category": "Fairy",
+              "value": -5
+            }
+          ]
+        },
+        {
+          "answerText": "Pop",
+          "weights": [
+            {
+              "category": "Fairy",
+              "value": 5
+            },
+            {
+              "category": "Normal",
+              "value": 1
+            },
+            {
+              "category": "Bug",
+              "value": -2
+            },
+            {
+              "category": "Dragon",
+              "value": -5
+            }
+          ]
+        },
+        {
+          "answerText": "Country",
+          "weights": [
+            {
+              "category": "Ground",
+              "value": 4
+            },
+            {
+              "category": "Rock",
+              "value": 4
+            },
+            {
+              "category": "Grass",
+              "value": 3
+            },
+            {
+              "category": "Steel",
+              "value": 2
+            },
+            {
+              "category": "Flying",
+              "value": 1
+            },
+            {
+              "category": "Water",
+              "value": -3
+            },
+            {
+              "category": "Electric",
+              "value": -5
+            }
+          ]
+        },
+        {
+          "answerText": "Metal",
+          "weights": [
+            {
+              "category": "Steel",
+              "value": 5
+            },
+            {
+              "category": "Electric",
+              "value": 3
+            },
+            {
+              "category": "Fighting",
+              "value": 2
+            },
+            {
+              "category": "Fire",
+              "value": 2
+            },
+            {
+              "category": "Dragon",
+              "value": 2
+            },
+            {
+              "category": "Water",
+              "value": -2
+            },
+            {
+              "category": "Normal",
+              "value": -4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionText": "Which are you?",
+      "answers": [
+        {
+          "answerText": "Extrovert",
+          "weights": [
+            {
+              "category": "Fire",
+              "value": 5
+            },
+            {
+              "category": "Fighting",
+              "value": 5
+            },
+            {
+              "category": "Fairy",
+              "value": 5
+            },
+            {
+              "category": "Electric",
+              "value": 4
+            },
+            {
+              "category": "Flying",
+              "value": 3
+            },
+            {
+              "category": "Normal",
+              "value": 2
+            },
+            {
+              "category": "Bug",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "answerText": "Introvert",
+          "weights": [
+            {
+              "category": "Water",
+              "value": 5
+            },
+            {
+              "category": "Grass",
+              "value": 5
+            },
+            {
+              "category": "Psychic",
+              "value": 4
+            },
+            {
+              "category": "Poison",
+              "value": 4
+            },
+            {
+              "category": "Dragon",
+              "value": 3
+            },
+            {
+              "category": "Ground",
+              "value": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionText": "Favorite season? ",
+      "answers": [
+        {
+          "answerText": "Summer",
+          "weights": [
+            {
+              "category": "Fire",
+              "value": 3
+            },
+            {
+              "category": "Dragon",
+              "value": 2
+            },
+            {
+              "category": "Ground",
+              "value": 3
+            },
+            {
+              "category": "Normal",
+              "value": 2
+            },
+            {
+              "category": "Grass",
+              "value": 3
+            },
+            {
+              "category": "Ice",
+              "value": -3
+            }
+          ]
+        },
+        {
+          "answerText": "Spring",
+          "weights": [
+            {
+              "category": "Water",
+              "value": 4
+            },
+            {
+              "category": "Psychic",
+              "value": 3
+            },
+            {
+              "category": "Electric",
+              "value": 4
+            },
+            {
+              "category": "Rock",
+              "value": 2
+            },
+            {
+              "category": "Steel",
+              "value": 2
+            },
+            {
+              "category": "Ice",
+              "value": -3
+            }
+          ]
+        },
+        {
+          "answerText": "Fall",
+          "weights": [
+            {
+              "category": "Ghost",
+              "value": 5
+            },
+            {
+              "category": "Dark",
+              "value": 3
+            },
+            {
+              "category": "Poison",
+              "value": 2
+            },
+            {
+              "category": "Fighting",
+              "value": 3
+            },
+            {
+              "category": "Fire",
+              "value": -2
+            }
+          ]
+        },
+        {
+          "answerText": "Winter",
+          "weights": [
+            {
+              "category": "Ice",
+              "value": 5
+            },
+            {
+              "category": "Fairy",
+              "value": 3
+            },
+            {
+              "category": "Flying",
+              "value": 3
+            },
+            {
+              "category": "Fire",
+              "value": -3
+            },
+            {
+              "category": "Fighting",
+              "value": -2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionText": "Favorite movie genre? ",
+      "answers": [
+        {
+          "answerText": "Science Fiction",
+          "weights": [
+            {
+              "category": "Dragon",
+              "value": 4
+            },
+            {
+              "category": "Dark",
+              "value": 3
+            },
+            {
+              "category": "Ghost",
+              "value": 4
+            },
+            {
+              "category": "Rock",
+              "value": 2
+            },
+            {
+              "category": "Poison",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "answerText": "Action",
+          "weights": [
+            {
+              "category": "Fighting",
+              "value": 5
+            },
+            {
+              "category": "Flying",
+              "value": 3
+            },
+            {
+              "category": "Ground",
+              "value": 2
+            },
+            {
+              "category": "Grass",
+              "value": -2
+            },
+            {
+              "category": "Fairy",
+              "value": -2
+            },
+            {
+              "category": "Ice",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "answerText": "Comedy",
+          "weights": [
+            {
+              "category": "Normal",
+              "value": 4
+            },
+            {
+              "category": "Grass",
+              "value": 4
+            },
+            {
+              "category": "Psychic",
+              "value": 3
+            },
+            {
+              "category": "Fighting",
+              "value": -3
+            },
+            {
+              "category": "Steel",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "answerText": "Romance",
+          "weights": [
+            {
+              "category": "Fire",
+              "value": 5
+            },
+            {
+              "category": "Water",
+              "value": 2
+            },
+            {
+              "category": "Fairy",
+              "value": 3
+            },
+            {
+              "category": "Bug",
+              "value": 5
+            },
+            {
+              "category": "Grass",
+              "value": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "questionText": "Which of these statements do you most relate to? ",
+      "answers": [
+        {
+          "answerText": "We all walk alone on this Earth.",
+          "weights": [
+            {
+              "category": "Ice",
+              "value": 5
+            },
+            {
+              "category": "Dark",
+              "value": 4
+            },
+            {
+              "category": "Ghost",
+              "value": 4
+            },
+            {
+              "category": "Rock",
+              "value": 4
+            },
+            {
+              "category": "Steel",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "answerText": "This too shall pass",
+          "weights": [
+            {
+              "category": "Fighting",
+              "value": 5
+            },
+            {
+              "category": "Flying",
+              "value": 3
+            },
+            {
+              "category": "Ground",
+              "value": 2
+            },
+            {
+              "category": "Grass",
+              "value": 2
+            },
+            {
+              "category": "Fairy",
+              "value": -2
+            },
+            {
+              "category": "Ice",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "answerText": "We're all in this together",
+          "weights": [
+            {
+              "category": "Fairy",
+              "value": 4
+            },
+            {
+              "category": "Grass",
+              "value": 4
+            },
+            {
+              "category": "Bug",
+              "value": 3
+            },
+            {
+              "category": "Flying",
+              "value": 3
+            },
+            {
+              "category": "Water",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "answerText": "Thank you, next",
+          "weights": [
+            {
+              "category": "Fire",
+              "value": 5
+            },
+            {
+              "category": "Water",
+              "value": 3
+            },
+            {
+              "category": "Fairy",
+              "value": 4
+            },
+            {
+              "category": "Steel",
+              "value": 3
+            },
+            {
+              "category": "Grass",
+              "value": 2
+            }
+          ]
         }
       ]
     }
