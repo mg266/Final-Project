@@ -10,7 +10,10 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity
 {
     /** The logging tag for this class. */
-    final static String TAG = "MainActivity";
+    private final static String TAG = "MainActivity";
+//    todo Matthew implement
+//    /** The instance of the Quiz that the app is reading and writing to. */
+//    private Quiz quizInstance;
     /**
      * Triggers when the app is initialized.
      * @param savedInstanceState a saved instance of the app that it is being initialized with.
@@ -19,6 +22,8 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+//      todo Matthew implement
+//      quizInstance = new Quiz(appdata);
         setContentView(R.layout.activity_main);
         Button beginQuiz = findViewById(R.id.beginQuiz);
         beginQuiz.setOnClickListener(new View.OnClickListener() {
@@ -84,6 +89,7 @@ public class MainActivity extends AppCompatActivity
     }
     /**
      * Triggers when the app is moved out of focus.
+     * todo unused currently
      */
     @Override
     protected void onPause()
@@ -92,6 +98,7 @@ public class MainActivity extends AppCompatActivity
     }
     /**
      * Triggers when the app comes into focus
+     * todo unused currently
      */
     @Override
     protected void onResume()
