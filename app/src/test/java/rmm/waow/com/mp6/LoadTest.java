@@ -1,6 +1,6 @@
 package rmm.waow.com.mp6;
 
-public class WrapperTest
+public class LoadTest
 {
     public static void main(String[] args)
     {

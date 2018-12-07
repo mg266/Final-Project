@@ -14,7 +14,7 @@
         <activity android:name=".Questions2Activity" />
         <activity android:name=".Questions3Activity" />
         <activity android:name=".Questions5Activity" />
-        <activity android:name=".optionsActivity" />
+        <activity android:name=".OptionsActivity" />
         <activity android:name=".ResultActivity"></activity>
     </application>
 

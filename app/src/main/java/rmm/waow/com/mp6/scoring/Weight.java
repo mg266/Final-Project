@@ -8,6 +8,8 @@ import org.json.JSONObject;
  */
 public class Weight
 {
+    /** The logging tag for this class. */
+    private static final String TAG = "Waow:scoring.Weight";
     /** The String name of a category in a JSON object describing a Weight object. */
     private static final String CATEGORY = "category";
     /** The category of the Weight. */

@@ -3,7 +3,7 @@ package com.waow.hmm.mp6.instant;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class optionsActivity extends AppCompatActivity {
+public class OptionsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
