@@ -7,8 +7,6 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import javax.*;
-
 import java.util.ArrayList;
 import java.util.Iterator;
 
@@ -54,7 +52,7 @@ public class Answer implements Iterable<Weight>
      * JSON constructor, creates an Answer from a JSON file.
      * @param jsonObject the JSON template for the Answer.
      */
-    public Answer(final JSONObject jsonObject) throws JSONException
+    Answer(final JSONObject jsonObject) throws JSONException
     {
         text = jsonObject.getString(TEXT);
         weights = new ArrayList<>();
@@ -75,7 +73,7 @@ public class Answer implements Iterable<Weight>
      * Self-constructor, copies the contents of another Answer object into a new one.
      * @param other the Answer being copied
      */
-    public Answer(final Answer other)
+    Answer(final Answer other)
     {
         text = other.getText();
         weights = new ArrayList<>();

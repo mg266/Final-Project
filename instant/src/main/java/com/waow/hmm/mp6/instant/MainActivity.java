@@ -9,8 +9,13 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity
 {
-    //@Override
-    final String TAG = "MainActivity";
+    /** The logging tag for this class. */
+    final static String TAG = "MainActivity";
+    /**
+     * Triggers when the app is initialized.
+     * @param savedInstanceState a saved instance of the app that it is being initialized with.
+     */
+    @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
@@ -61,8 +66,36 @@ public class MainActivity extends AppCompatActivity
 //        ProgressBar progressBar = findViewById(R.id.progressBar);
 //        progressBar.setVisibility(View.INVISIBLE);
     }
+    /**
+     * todo Riya description
+     */
     public void openActivityQuestion() {
         Intent openQuestion = new Intent(this, Questions4Activity.class);
         startActivity(openQuestion);
+    }
+    /**
+     * Triggers when the app is closed.
+     * todo unused currently
+     */
+    @Override
+    protected void onDestroy()
+    {
+        super.onDestroy();
+    }
+    /**
+     * Triggers when the app is moved out of focus.
+     */
+    @Override
+    protected void onPause()
+    {
+        super.onPause();
+    }
+    /**
+     * Triggers when the app comes into focus
+     */
+    @Override
+    protected void onResume()
+    {
+        super.onResume();
     }
 }

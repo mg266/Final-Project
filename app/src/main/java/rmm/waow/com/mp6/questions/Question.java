@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 /**
- * One single question that stores its flavor text and multiple answers.
+ * One single question that stores its text and multiple answers.
  */
 public class Question implements Iterable<Answer>
 {
