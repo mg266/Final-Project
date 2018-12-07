@@ -1,6 +1,7 @@
 package com.waow.hmm.mp6.instant;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -11,7 +12,9 @@ public class MainActivity extends AppCompatActivity
 {
     /** The logging tag for this class. */
     private final static String TAG = "MainActivity";
-//    todo Matthew implement
+    /** Controls sound effect and music playback. */
+    private MediaPlayer mediaPlayer;
+//    //todo Matthew implement
 //    /** The instance of the Quiz that the app is reading and writing to. */
 //    private Quiz quizInstance;
     /**
@@ -22,7 +25,10 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-//      todo Matthew implement
+//      //todo Matthew fix / implement
+//        setContentView(R.layout.activity_main);
+//        mediaPlayer = MediaPlayer.create(getApplicationContext(), R.music.backgroundMusic);
+//        mediaPlayer.setLooping(true);
 //      quizInstance = new Quiz(appdata);
         setContentView(R.layout.activity_main);
         Button beginQuiz = findViewById(R.id.beginQuiz);
@@ -89,20 +95,23 @@ public class MainActivity extends AppCompatActivity
     }
     /**
      * Triggers when the app is moved out of focus.
-     * todo unused currently
      */
     @Override
     protected void onPause()
     {
         super.onPause();
+//        //todo Matthew fix
+//        mediaPlayer.stop();
+//        mediaPlayer.release();
     }
     /**
      * Triggers when the app comes into focus
-     * todo unused currently
      */
     @Override
     protected void onResume()
     {
         super.onResume();
+//        //todo Matthew fix
+//        mediaPlayer.start();
     }
 }
