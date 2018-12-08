@@ -24,10 +24,12 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.168"/>
+        app:layout_constraintVertical_bias="0.168"
+        android:background="@drawable/button_layout"/>
 
     <Button
         android:id="@+id/optionsButton"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -42,10 +44,12 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.304"/>
+        app:layout_constraintVertical_bias="0.304"
+        android:background="@drawable/button_layout"/>
 
     <Button
         android:id="@+id/previousResults"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -60,5 +64,7 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.44"/>
+        app:layout_constraintVertical_bias="0.44"
+        android:background="@drawable/button_layout"/>
+
 </android.support.constraint.ConstraintLayout>
