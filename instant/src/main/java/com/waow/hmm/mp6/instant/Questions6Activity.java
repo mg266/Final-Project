@@ -6,14 +6,14 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
-public class Questions5Activity extends AppCompatActivity {
+public class Questions6Activity extends AppCompatActivity {
 
-    final String TAG = "questions5Activity";
+    final String TAG = "questions6Activity";
     @Override
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_questions5);
+        setContentView(R.layout.activity_questions6);
         Button answerA = findViewById(R.id.answerA);
         answerA.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,12 +42,21 @@ public class Questions5Activity extends AppCompatActivity {
                 Log.d(TAG, "clicked D");
             }
         });
-        Button answerE = findViewById(R.id.answerD);
-        answerE.setOnClickListener(new View.OnClickListener() {
+        Button answerE = findViewById(R.id.answerE);
+        answerD.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Log.d(TAG, "clicked E");
             }
         });
+        Button answerF = findViewById(R.id.answerF);
+        answerD.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d(TAG, "clicked F");
+            }
+        });
+
+
     }
 }
