@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v) {
                 Log.d(TAG, "clicked optionsButton");
+                openActivityOptions();
             }
         });
         Button previousResults = findViewById(R.id.previousResults);
@@ -53,6 +54,7 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v) {
                 Log.d(TAG, "clicked previousResults");
+                openActivityResults();
             }
         });
 
@@ -79,12 +81,20 @@ public class MainActivity extends AppCompatActivity
 //        ProgressBar progressBar = findViewById(R.id.progressBar);
 //        progressBar.setVisibility(View.INVISIBLE);
     }
-    /**
-     * todo Riya description
-     */
+    /** Switches to the Question view. */
     public void openActivityQuestion() {
         Intent openQuestion = new Intent(this, Questions4Activity.class);
         startActivity(openQuestion);
+    }
+    /** Switches to the Options view. */
+    public void openActivityOptions() {
+        Intent openOptions = new Intent(this, OptionsActivity.class);
+        startActivity(openOptions);
+    }
+    /** Switches to the Results view. */
+    public void openActivityResults() {
+        Intent openResults = new Intent(this, ResultsActivity.class);
+        startActivity(openResults);
     }
     /**
      * Triggers when the app is closed.

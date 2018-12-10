@@ -1,6 +1,5 @@
 package com.waow.hmm.mp6.instant;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -50,7 +49,7 @@ public class Questions4Activity extends AppCompatActivity {
         });
     }
     public void openActivityResult() {
-        Intent openResult = new Intent(this, ResultActivity.class);
+        Intent openResult = new Intent(this, ResultsActivity.class);
         startActivity(openResult);
     }
 }

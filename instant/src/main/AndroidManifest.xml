@@ -6,7 +6,6 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -14,8 +13,8 @@
         <activity android:name=".Questions2Activity" />
         <activity android:name=".Questions3Activity" />
         <activity android:name=".Questions5Activity" />
-        <activity android:name=".optionsActivity" />
-        <activity android:name=".ResultActivity"></activity>
+        <activity android:name=".OptionsActivity" />
+        <activity android:name=".ResultsActivity"></activity>
     </application>
 
 </manifest>
