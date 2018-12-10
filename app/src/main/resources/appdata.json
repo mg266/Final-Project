@@ -83,27 +83,6 @@
           ]
         },
         {
-          "answerText": "Stubbornness",
-          "weights": [
-            {
-              "category": "Steel",
-              "value": 5
-            },
-            {
-              "category": "Rock",
-              "value": 4
-            },
-            {
-              "category": "Bug",
-              "value": 2
-            },
-            {
-              "category": "Flying",
-              "value": -4
-            }
-          ]
-        },
-        {
           "answerText": "Laziness",
           "weights": [
             {
@@ -232,31 +211,6 @@
               "value": -3
             }
           ]
-        },
-        {
-          "answerText": "Loss",
-          "weights": [
-            {
-              "category": "Ghost",
-              "value": 5
-            },
-            {
-              "category": "Water",
-              "value": 4
-            },
-            {
-              "category": "Poison",
-              "value": 4
-            },
-            {
-              "category": "Ice",
-              "value": 2
-            },
-            {
-              "category": "Dark",
-              "value": -3
-            }
-          ]
         }
       ]
     },
@@ -356,27 +310,6 @@
             {
               "category": "Normal",
               "value": 3
-            }
-          ]
-        },
-        {
-          "answerText": "Mountains",
-          "weights": [
-            {
-              "category": "Rock",
-              "value": 5
-            },
-            {
-              "category": "Flying",
-              "value": 3
-            },
-            {
-              "category": "Steel",
-              "value": 4
-            },
-            {
-              "category": "Water",
-              "value": 2
             }
           ]
         }
@@ -641,84 +574,29 @@
               "value": 1
             }
           ]
-        }
-      ]
-    },
-    {
-      "questionText": "Dream Job?",
-      "answers": [
+        },
         {
-          "answerText": "Actor",
+          "answerText": "Pasta",
           "weights": [
             {
-              "category": "Fire",
-              "value": 4
-            },
-            {
-              "category": "Water",
-              "value": 2
-            },
-            {
-              "category": "Ghost",
-              "value": 4
-            },
-            {
-              "category": "Psychic",
+              "category": "Normal",
               "value": 3
             },
             {
-              "category": "Ice",
+              "category": "Grass",
               "value": 2
-            }
-          ]
-        },
-        {
-          "answerText": "Detective",
-          "weights": [
+            },
             {
-              "category": "Psychic",
-              "value": 4
+              "category": "Flying",
+              "value": 3
             },
             {
               "category": "Fairy",
-              "value": 4
-            },
-            {
-              "category": "Dark",
-              "value": 3
-            },
-            {
-              "category": "Poison",
-              "value": 2
-            },
-            {
-              "category": "Normal",
               "value": 2
             },
             {
               "category": "Fighting",
-              "value": 3
-            }
-          ]
-        },
-        {
-          "answerText": "Astronaut",
-          "weights": [
-            {
-              "category": "Flying",
-              "value": 5
-            },
-            {
-              "category": "Ice",
-              "value": 3
-            },
-            {
-              "category": "Electric",
-              "value": 2
-            },
-            {
-              "category": "Steel",
-              "value": 4
+              "value": 1
             }
           ]
         }
@@ -866,6 +744,31 @@
               "value": -3
             }
           ]
+        },
+        {
+          "answerText": "Extreme Heat",
+          "weights": [
+            {
+              "category": "Fire",
+              "value": 3
+            },
+            {
+              "category": "Psychic",
+              "value": 2
+            },
+            {
+              "category": "Normal",
+              "value": 3
+            },
+            {
+              "category": "Steel",
+              "value": 2
+            },
+            {
+              "category": "Ice",
+              "value": -3
+            }
+          ]
         }
       ]
     },
@@ -944,6 +847,31 @@
             {
               "category": "Fighting",
               "value": -3
+            }
+          ]
+        },
+        {
+          "answerText": "Independent",
+          "weights": [
+            {
+              "category": "Ice",
+              "value": 3
+            },
+            {
+              "category": "Fighting",
+              "value": 2
+            },
+            {
+              "category": "Rock",
+              "value": 3
+            },
+            {
+              "category": "Fairy",
+              "value": 2
+            },
+            {
+              "category": "Ice",
+              "value": 1
             }
           ]
         }
@@ -1419,139 +1347,6 @@
               "value": -5
             }
           ]
-        },
-        {
-          "answerText": "Country",
-          "weights": [
-            {
-              "category": "Ground",
-              "value": 4
-            },
-            {
-              "category": "Rock",
-              "value": 4
-            },
-            {
-              "category": "Grass",
-              "value": 3
-            },
-            {
-              "category": "Steel",
-              "value": 2
-            },
-            {
-              "category": "Flying",
-              "value": 1
-            },
-            {
-              "category": "Water",
-              "value": -3
-            },
-            {
-              "category": "Electric",
-              "value": -5
-            }
-          ]
-        },
-        {
-          "answerText": "Metal",
-          "weights": [
-            {
-              "category": "Steel",
-              "value": 5
-            },
-            {
-              "category": "Electric",
-              "value": 3
-            },
-            {
-              "category": "Fighting",
-              "value": 2
-            },
-            {
-              "category": "Fire",
-              "value": 2
-            },
-            {
-              "category": "Dragon",
-              "value": 2
-            },
-            {
-              "category": "Water",
-              "value": -2
-            },
-            {
-              "category": "Normal",
-              "value": -4
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "questionText": "Which are you?",
-      "answers": [
-        {
-          "answerText": "Extrovert",
-          "weights": [
-            {
-              "category": "Fire",
-              "value": 5
-            },
-            {
-              "category": "Fighting",
-              "value": 5
-            },
-            {
-              "category": "Fairy",
-              "value": 5
-            },
-            {
-              "category": "Electric",
-              "value": 4
-            },
-            {
-              "category": "Flying",
-              "value": 3
-            },
-            {
-              "category": "Normal",
-              "value": 2
-            },
-            {
-              "category": "Bug",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "answerText": "Introvert",
-          "weights": [
-            {
-              "category": "Water",
-              "value": 5
-            },
-            {
-              "category": "Grass",
-              "value": 5
-            },
-            {
-              "category": "Psychic",
-              "value": 4
-            },
-            {
-              "category": "Poison",
-              "value": 4
-            },
-            {
-              "category": "Dragon",
-              "value": 3
-            },
-            {
-              "category": "Ground",
-              "value": 1
-            }
-          ]
         }
       ]
     },
@@ -1885,6 +1680,108 @@
           ]
         }
       ]
+    },
+    {
+      "questionText": "Dream Job?",
+      "answers": [
+        {
+          "answerText": "Actor",
+          "weights": [
+            {
+              "category": "Fire",
+              "value": 4
+            },
+            {
+              "category": "Water",
+              "value": 2
+            },
+            {
+              "category": "Ghost",
+              "value": 4
+            },
+            {
+              "category": "Psychic",
+              "value": 3
+            },
+            {
+              "category": "Ice",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "answerText": "Detective",
+          "weights": [
+            {
+              "category": "Psychic",
+              "value": 4
+            },
+            {
+              "category": "Fairy",
+              "value": 4
+            },
+            {
+              "category": "Dark",
+              "value": 3
+            },
+            {
+              "category": "Poison",
+              "value": 2
+            },
+            {
+              "category": "Normal",
+              "value": 2
+            },
+            {
+              "category": "Fighting",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "answerText": "Astronaut",
+          "weights": [
+            {
+              "category": "Flying",
+              "value": 5
+            },
+            {
+              "category": "Ice",
+              "value": 3
+            },
+            {
+              "category": "Electric",
+              "value": 2
+            },
+            {
+              "category": "Steel",
+              "value": 4
+            },
+            {
+              "answerText": "Engineer",
+              "weights": [
+                {
+                  "category": "Steel",
+                  "value": 5
+                },
+                {
+                  "category": "Ice",
+                  "value": 3
+                },
+                {
+                  "category": "Electric",
+                  "value": 2
+                },
+                {
+                  "category": "Fire",
+                  "value": 4
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }
+
